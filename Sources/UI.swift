@@ -241,7 +241,7 @@ struct LimitCard: View {
                         .numericTransition()
                     Text("%").font(.system(size: 15, weight: .semibold))
                 }
-                .foregroundStyle(window.percent >= 80 ? Meter.label(window.percent) : .primary)
+                .foregroundStyle(Meter.label(window.percent))
             }
 
             MeterBar(percent: window.percent)
@@ -517,7 +517,7 @@ final class AppDelegate: NSObject, NSApplicationDelegate {
         if store.showPercent {
             if let session = snapshot?.session {
                 title = " \(session.rounded)%"
-                if session.percent >= 80 { attributes[.foregroundColor] = Meter.nsColor(session.percent, lift: 0.1) }
+                attributes[.foregroundColor] = Meter.nsColor(session.percent, lift: 0.1)
             } else {
                 title = " –"
             }
