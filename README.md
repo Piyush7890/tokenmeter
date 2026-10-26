@@ -6,12 +6,12 @@ The outer ring is your weekly limit and the inner ring is your 5-hour session. T
 
 <table>
   <tr>
-    <td><img src="docs/green.png" width="400" alt="Plenty in the tank"></td>
-    <td><img src="docs/yellow.png" width="400" alt="Past the halfway mark"></td>
+    <td><img src="docs/green-v2.png" width="400" alt="Plenty in the tank"></td>
+    <td><img src="docs/yellow-v2.png" width="400" alt="Past the halfway mark"></td>
   </tr>
   <tr>
-    <td><img src="docs/orange.png" width="400" alt="Tank's getting low"></td>
-    <td><img src="docs/red.png" width="400" alt="Running on fumes"></td>
+    <td><img src="docs/orange-v2.png" width="400" alt="Tank's getting low"></td>
+    <td><img src="docs/red-v2.png" width="400" alt="Running on fumes"></td>
   </tr>
 </table>
 
